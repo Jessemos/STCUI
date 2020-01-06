@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This CSS package applies Google styling; it should always be included. -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <base target="_top">
+
+    <!-- bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+
+<body>
+<!-- Butons -->
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <div class="alert alert-primary text-center" id="sheetNameDiv">
+                My DS
+            </div>
+        </div>
+    </div>
+
+    <!-- STC ShortCuts -->
+    <div class="row pb-3">
+        <div class="col">
+            <div class="p-1">
+                <button aria-controls="collapseSTC" aria-expanded="false" class="btn btn-success btn-lg btn-block"
+                        data-target="#collapseSTC"
+                        data-toggle="collapse" type="button">
+                    STC Short Cuts (Click to expand):
+                </button>
+                <div class="collapse" id="collapseSTC">
+                    <div class="row">
+                        <div class="col max">
+                            <div class="pt-3">
+                                <button class="btn btn-primary text-center w-100"
+                                        onclick='google.script.run.openPendingSA()'
+                                        type="button">Open Editor Alerts Page
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="pt-3">
+                                <button class="btn btn-primary text-center w-100"
+                                        onclick='google.script.run.openPendingSTC()'
+                                        type="button">Open Editor STCs Page
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="pt-3">
+                                <button class="btn btn-primary text-center w-100"
+                                        onclick='google.script.run.openLinesEditor()'
+                                        type="button">Open Editor Lines Page
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="pt-3">
+                                <button class="btn btn-primary text-center w-100"
+                                        onclick='google.script.run.openMoovitAppArea()'
+                                        type="button">Open Moovitapp area Page
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="pt-3">
+                                <button class="btn btn-primary text-center w-100" id="test" type="button">Test</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- STC ShortCuts End -->
+
+    <!-- Mapping ShortCuts -->
+    <div class="row pb-3">
+        <div class="col">
+            <div class="pt-3">
+                <button aria-controls="collapseMapping" aria-expanded="false" class="btn btn-success btn-lg btn-block"
+                        data-target="#collapseMapping"
+                        data-toggle="collapse" type="button">
+                    Mapping Short cuts (Click to expand):
+                </button>
+                <div class="collapse" id="collapseMapping">
+                    <div class="row">
+                        <div class="col">
+                            <div class="pt-3">
+                                <button class="btn btn-primary text-center w-100"
+                                        onclick='google.script.run.openOldEditor()'
+                                        type="button">
+                                    "Old" Editor
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mapping ShortCuts End -->
+
+    <!-- Fares ShortCuts -->
+    <div class="row pb-3">
+        <div class="col">
+            <div class="pt-3">
+                <button aria-controls="collapseFares" aria-expanded="false" class="btn btn-success btn-lg btn-block"
+                        data-target="#collapseFares"
+                        data-toggle="collapse" type="button">
+                    Mapping Short cuts (Click to expand):
+                </button>
+                <div class="collapse" id="collapseFares">
+                    <div class="row pt-3">
+                        <div class="col">
+                            <button class="btn btn-primary text-center w-100" id="fares"
+                                    onclick='google.script.run.openFares()'
+                                    type="button">Fares
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fares ShortCuts End -->
+<!-- Buttons End-->
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
