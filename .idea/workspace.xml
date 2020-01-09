@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d31767e2-cb01-4c41-9751-234d8d516eda" name="Default Changelist" comment="">
+    <list default="true" id="d31767e2-cb01-4c41-9751-234d8d516eda" name="Default Changelist" comment="1. Options Added to STC - Not Active yet. &#10;                                                  2. all &quot;Green&quot; buttons wrapped in container &amp; card">
+      <change afterPath="$PROJECT_DIR$/HTML/Agencies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,14 +16,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="239" column="10" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="14" column="15" lean-forward="true" selection-end-line="252" selection-end-column="7" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/Agencies.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="96" column="62" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
+              <folding>
                 <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -80,6 +93,9 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
@@ -91,11 +107,13 @@
         <option value="$PROJECT_DIR$/HTML/bootstrap.html" />
         <option value="$PROJECT_DIR$/HTML/STCShortCutsSideBar.html" />
         <option value="$PROJECT_DIR$/HTML/index.html" />
+        <option value="$PROJECT_DIR$/HTML/Agencies.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="207" />
+    <option name="x" value="-1401" />
+    <option name="y" value="230" />
     <option name="width" value="1400" />
     <option name="height" value="907" />
   </component>
@@ -105,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,13 +139,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML/STCShortCutsSideBar.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML/Agencies.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -150,8 +168,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.agencies">
     <configuration name="STCShortCutsSideBar.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/STC-UI/HTML/STCShortCutsSideBar.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="agencies" type="JavascriptDebugType" uri="http://localhost:63342/STC-UI/HTML/Agencies.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/STC-UI/HTML/index.html" useBuiltInWebServerPort="true">
@@ -161,6 +182,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.agencies" />
       <item itemvalue="JavaScript Debug.STCShortCutsSideBar.html" />
       <item itemvalue="JavaScript Debug.index.html" />
     </list>
@@ -186,7 +208,8 @@
       <workItem from="1578245623952" duration="2606000" />
       <workItem from="1578311089956" duration="2861000" />
       <workItem from="1578330630645" duration="700000" />
-      <workItem from="1578403722011" duration="2881000" />
+      <workItem from="1578403722011" duration="5091000" />
+      <workItem from="1578576516120" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <created>1578312414584</created>
@@ -209,16 +232,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578406490638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1. Options Added to STC - Not Active yet. &#10;2. all &quot;Green&quot; buttons wrapped in container &amp; card">
+      <created>1578406692129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578406692129</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12456000" />
+    <option name="totallyTimeSpent" value="17969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1608" y="172" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21546261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -229,9 +260,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49873257" visible="true" weight="0.1076716" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50126743" side_tool="true" visible="true" weight="0.1076716" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -264,6 +295,17 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="UI-With-Options" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
@@ -277,11 +319,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="UI-With-Options" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit!" />
     <MESSAGE value="Buttons organized and collapse properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Buttons organized and collapse properly" />
+    <MESSAGE value="1. Options Added to STC - Not Active yet. &#10;2. all &quot;Green&quot; buttons wrapped in container &amp; card" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Options Added to STC - Not Active yet. &#10;2. all &quot;Green&quot; buttons wrapped in container &amp; card" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -296,13 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/stylesheet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/STCShortCutsSideBar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -310,13 +361,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/stylesheet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="239" column="10" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
+        <state relative-caret-position="238">
+          <caret line="14" column="15" lean-forward="true" selection-end-line="252" selection-end-column="7" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Agencies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="96" column="62" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
+          <folding>
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
