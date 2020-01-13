@@ -36,25 +36,9 @@
                     <div class="collapse" id="collapseGeneral">
                         <div class="card">
                             <div class="card-body">
+                                <!-- SO Owner & Priority -->
                                 <div class="row">
-                                    <div class="col max">
-                                        <div class="pt-3">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <label class="input-group-text" data-toggle="tooltip"
-                                                           for="inputGroupSelectPriority"
-                                                           title="Select from dropdown to change">Priority:</label>
-                                                </div>
-                                                <select class="custom-select" id="inputGroupSelectPriority">
-                                                    <option selected>Choose...</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col max">
+                                    <div class="col-xs-auto col-md-6">
                                         <div class="pt-3">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
@@ -71,9 +55,28 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-3">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="inputGroupSelectPriority"
+                                                           title="Select from dropdown to change">Priority:</label>
+                                                </div>
+                                                <select class="custom-select" id="inputGroupSelectPriority">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <!-- EO Owner & Priority -->
+                                <!-- SO Area info & DS Number -->
                                 <div class="row">
-                                    <div class="col max">
+                                    <div class="col-xs-auto col-md-5">
                                         <div class="pt-3">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
@@ -92,7 +95,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col max">
+                                    <div class="col-xs-auto col-md-3">
                                         <div class="pt-3">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
@@ -111,49 +114,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col max">
-                                        <div class="pt-3">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <label class="input-group-text" data-toggle="tooltip"
-                                                           for="SearchAgencyByName"
-                                                           title="Select from dropdown to change">
-                                                        Agency Name:
-                                                    </label>
-                                                </div>
-                                                <select class="custom-select" id="SearchAgencyByName">
-                                                    <option selected>Search by Agency Name...</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col max">
-                                        <div class="pt-3">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <label class="input-group-text" data-toggle="tooltip"
-                                                           for="SearchAgencyByID"
-                                                           title="Select from dropdown to change">
-                                                        Agency ID:
-                                                    </label>
-                                                </div>
-                                                <select class="custom-select" id="SearchAgencyByID">
-                                                    <option selected>Search by Agency ID...</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col max">
+                                    <div class="col-xs-auto col-md-4">
                                         <div class="pt-3">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
@@ -172,6 +133,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- EO Area info & DS Number -->
+                                <!-- SO Shortcut: Editor Alerts Tab-->
                                 <div class="row">
                                     <div class="col max">
                                         <div class="pt-3">
@@ -182,8 +145,48 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- EO Shortcut: Editor Alerts Tab-->
+                                <!-- SO Agency info -->
                                 <div class="row">
-                                    <div class="col max">
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-3">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="SearchAgencyByName"
+                                                           title="Select from dropdown to change">
+                                                        Agency Name:
+                                                    </label>
+                                                </div>
+                                                <select class="custom-select" id="SearchAgencyByName">
+                                                    <option selected>Search by Agency Name...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-3">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="SearchAgencyByID"
+                                                           title="Select from dropdown to change">
+                                                        Agency ID:
+                                                    </label>
+                                                </div>
+                                                <select class="custom-select" id="SearchAgencyByID">
+                                                    <option selected>Search by Agency ID...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-auto col-md-6">
                                         <div class="pt-3">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
@@ -201,7 +204,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col max">
+                                    <div class="col-xs-auto col-md-6">
                                         <div class="pt-3">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
@@ -219,6 +222,11 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- EO Agency info -->
+
+                                <div class="row">
+
                                 </div>
                                 <div class="row">
                                     <div class="col max">
@@ -259,6 +267,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <div class="row">
                                 <div class="col">
