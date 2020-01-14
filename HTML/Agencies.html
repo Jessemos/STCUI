@@ -12,99 +12,108 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
 
 <body>
-<!-- Butons -->
-<div class="row">
-    <div class="col">
-        <div class="alert alert-primary text-center" id="sheetNameDiv">
-            STC Allerts Follow Up
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="alert alert-primary text-center" id="sheetNameDiv">
+                STC Allerts Follow Up
+            </div>
         </div>
     </div>
-</div>
-<!-- Area Information ShortCuts -->
-<!-- SO Area & DS -->
-<div class="row">
-    <div class="col">
-        <div class="pt-3">
-            <div class="card bg-light mb-3">
-                <div class="card-header">
-                    <a aria-controls="collapseExample" aria-expanded="false" class=" btn-outline-none"
-                       data-toggle="collapse"
-                       href="#collapseExample"
-                       role="button"><h5> Current Area & DS Info</h5></a>
-                </div>
-                <div class="collapse" id="collapseExample">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-xs w-100 col-lg-3">
-                                <div class="pt-1">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <label class="input-group-text" data-toggle="tooltip"
-                                                   for="inputGroupSelectPriority"
-                                                   title="Select from dropdown to change">Priority:</label>
+    <div class="row">
+        <div class="col-9 ">
+            <iframe height="100%" src="https://mooviters.moovit.com/editor/service-alerts?dataSourceId=2037&tab=sa"
+                    style="border:none;"
+                    width="100%"></iframe>
+        </div>
+        <div class="col-3">
+            <!-- Butons -->
+            <!-- Area Information ShortCuts -->
+            <!-- SO Area & DS -->
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header">
+                            <a aria-controls="collapseExample" aria-expanded="false" class=" btn-outline-none"
+                               data-toggle="collapse"
+                               href="#collapseExample"
+                               role="button"><h5> Current Area & DS Info</h5></a>
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xs w-100 col-lg-3">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="inputGroupSelectPriority"
+                                                           title="Select from dropdown to change">Priority:</label>
+                                                </div>
+                                                <select class="custom-select" id="inputGroupSelectPriority">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <select class="custom-select" id="inputGroupSelectPriority">
-                                            <option selected>Choose...</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-xs w-100 col-lg-4">
-                                <div class="pt-1">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <label class="input-group-text" data-toggle="tooltip"
-                                                   for="inputGroupSelectDS"
-                                                   title="Select from dropdown to change">Relevant Data
-                                                Source:</label>
+                                    <div class="col-xs w-100 col-lg-4">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="inputGroupSelectDS"
+                                                           title="Select from dropdown to change">Relevant Data
+                                                        Source:</label>
+                                                </div>
+                                                <select class="custom-select" id="inputGroupSelectDS">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <select class="custom-select" id="inputGroupSelectDS">
-                                            <option selected>Choose...</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-xs w-100 col-lg-5">
-                                <div class="pt-1">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <label class="input-group-text" data-toggle="tooltip"
-                                                   for="SearchAreaByID"
-                                                   title="Select from dropdown to change">
-                                                Area ID:
-                                            </label>
+                                    <div class="col-xs w-100 col-lg-5">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="SearchAreaByID"
+                                                           title="Select from dropdown to change">
+                                                        Area ID:
+                                                    </label>
+                                                </div>
+                                                <select class="custom-select" id="SearchAreaByID">
+                                                    <option selected>Search by Area ID...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <select class="custom-select" id="SearchAreaByID">
-                                            <option selected>Search by Area ID...</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-xs w-100 col-md-auto">
-                                <div class="pt-1">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <label class="input-group-text" data-toggle="tooltip"
-                                                   for="SearchAreaByName"
-                                                   title="Select from dropdown to change">
-                                                Area Name:
-                                            </label>
+                                    <div class="col-xs w-100 col-md-auto">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="SearchAreaByName"
+                                                           title="Select from dropdown to change">
+                                                        Area Name:
+                                                    </label>
+                                                </div>
+                                                <select class="custom-select" id="SearchAreaByName">
+                                                    <option selected>Search by Area Name...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <select class="custom-select" id="SearchAreaByName">
-                                            <option selected>Search by Area Name...</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -112,277 +121,276 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<!-- EO Area & DS -->
-<!-- SO STC ShortCuts End -->
-<div class="row">
-    <div class="col">
-        <div class="pt-0.25">
-            <!-- SO Shortcut: Editor Alerts Tab-->
-            <div class="card bg-light mb-3">
-                <div class="card-header"><h5> Editor DS Short Cuts</h5></div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col">
-                            <div class="pt-3">
-                                <button class="btn btn-primary text-center w-100"
-                                        onclick='google.script.run.openPendingSA()'
-                                        type="button">Open Editor Alerts Page
-                                </button>
+            <!-- EO Area & DS -->
+            <!-- SO STC ShortCuts End -->
+            <div class="row">
+                <div class="col">
+                    <div class="pt-0.25">
+                        <!-- SO Shortcut: Editor Alerts Tab-->
+                        <div class="card bg-light mb-3">
+                            <div class="card-header"><h5> Editor DS Short Cuts</h5></div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="pt-3">
+                                            <button class="btn btn-primary text-center w-100"
+                                                    onclick='google.script.run.openPendingSA()'
+                                                    type="button">Open Editor Alerts Page
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="pt-3">
+                                            <button class="btn btn-primary text-center w-100"
+                                                    onclick='google.script.run.openPendingSTC()'
+                                                    type="button">Open Editor STCs Page
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="pt-3">
+                                            <button class="btn btn-primary text-center w-100"
+                                                    onclick='google.script.run.openLinesEditor()'
+                                                    type="button">Open Editor Lines Page
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="pt-3">
+                                            <button class="btn btn-primary text-center w-100"
+                                                    onclick='google.script.run.openMoovitAppArea()'
+                                                    type="button">Open Moovitapp area Page
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="pt-3">
-                                <button class="btn btn-primary text-center w-100"
-                                        onclick='google.script.run.openPendingSTC()'
-                                        type="button">Open Editor STCs Page
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="pt-3">
-                                <button class="btn btn-primary text-center w-100"
-                                        onclick='google.script.run.openLinesEditor()'
-                                        type="button">Open Editor Lines Page
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="pt-3">
-                                <button class="btn btn-primary text-center w-100"
-                                        onclick='google.script.run.openMoovitAppArea()'
-                                        type="button">Open Moovitapp area Page
-                                </button>
-                            </div>
-                        </div>
+                        <!-- EO Shortcut: Editor Alerts Tab-->
                     </div>
                 </div>
             </div>
-            <!-- EO Shortcut: Editor Alerts Tab-->
-        </div>
-    </div>
-</div>
-<!-- STC ShortCuts End -->
-<!-- SO Agency info -->
-<div class="row">
-    <div class="col">
-        <div class="pt-0.25">
+            <!-- STC ShortCuts End -->
+            <!-- SO Agency info -->
+            <div class="row">
+                <div class="col">
+                    <div class="pt-0.25">
 
-            <div class="card bg-light mb-3">
-                <div class="card-header"><h5>Current Agency Info</h5></div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-xs-auto col-md-6">
-                            <div class="pt-1">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <label class="input-group-text" data-toggle="tooltip"
-                                               for="inputGroupSelectOwner"
-                                               title="Select from dropdown to change">Owner:</label>
+                        <div class="card bg-light mb-3">
+                            <div class="card-header"><h5>Current Agency Info</h5></div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="inputGroupSelectOwner"
+                                                           title="Select from dropdown to change">Owner:</label>
+                                                </div>
+                                                <select class="custom-select" id="inputGroupSelectOwner">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <select class="custom-select" id="inputGroupSelectOwner">
-                                        <option selected>Choose...</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="SearchAgencyByName"
+                                                           title="Select from dropdown to change">
+                                                        Agency Name:
+                                                    </label>
+                                                </div>
+                                                <select class="custom-select" id="SearchAgencyByName">
+                                                    <option selected>Search by Agency Name...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" data-toggle="tooltip"
+                                                           for="SearchAgencyByID"
+                                                           title="Select from dropdown to change">
+                                                        Agency ID:
+                                                    </label>
+                                                </div>
+                                                <select class="custom-select" id="SearchAgencyByID">
+                                                    <option selected>Search by Agency ID...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" for="updateAlertsOnDayStart">Alerts
+                                                        on day start:</label>
+                                                </div>
+                                                <input aria-describedby="basic-addon2"
+                                                       aria-label="Alerts on day start"
+                                                       class="form-control"
+                                                       id="updateAlertsOnDayStart" placeholder="Update..."
+                                                       type="text">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button">update
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" for="updateCurrentAlerts">Current
+                                                        Alerts Amount:</label>
+                                                </div>
+                                                <input aria-describedby="basic-addon2"
+                                                       aria-label="Alerts on date start"
+                                                       class="form-control"
+                                                       id="updateCurrentAlerts" placeholder="Update..."
+                                                       type="text">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button">update
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text"
+                                                           for="dueWithinCurrentWeekAmount">Due
+                                                        Within this week:</label>
+                                                </div>
+                                                <input aria-describedby="basic-addon2"
+                                                       aria-label="Alerts on dat start"
+                                                       class="form-control"
+                                                       id="dueWithinCurrentWeekAmount" placeholder="Update..."
+                                                       type="text">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button">update
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-auto col-md-6">
+                                        <div class="pt-1">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text"
+                                                           for="dueWithinCurrentWeekEarliestDate">Earliest Due Date:
+                                                    </label>
+                                                </div>
+                                                <input aria-describedby="basic-addon2"
+                                                       aria-label="Alerts on dat start"
+                                                       class="form-control"
+                                                       id="dueWithinCurrentWeekEarliestDate" placeholder="Update..."
+                                                       type="text">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button">update
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="col-xs-auto col-md-6">
-                            <div class="pt-1">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <label class="input-group-text" data-toggle="tooltip"
-                                               for="SearchAgencyByName"
-                                               title="Select from dropdown to change">
-                                            Agency Name:
-                                        </label>
-                                    </div>
-                                    <select class="custom-select" id="SearchAgencyByName">
-                                        <option selected>Search by Agency Name...</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-auto col-md-6">
-                            <div class="pt-1">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <label class="input-group-text" data-toggle="tooltip"
-                                               for="SearchAgencyByID"
-                                               title="Select from dropdown to change">
-                                            Agency ID:
-                                        </label>
-                                    </div>
-                                    <select class="custom-select" id="SearchAgencyByID">
-                                        <option selected>Search by Agency ID...</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-auto col-md-6">
-                            <div class="pt-1">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <label class="input-group-text" for="updateAlertsOnDayStart">Alerts
-                                            on day start:</label>
-                                    </div>
-                                    <input aria-describedby="basic-addon2"
-                                           aria-label="Alerts on day start"
-                                           class="form-control"
-                                           id="updateAlertsOnDayStart" placeholder="Update..."
-                                           type="text">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-outline-secondary" type="button">update
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-auto col-md-6">
-                            <div class="pt-1">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <label class="input-group-text" for="updateCurrentAlerts">Current
-                                            Alerts Amount:</label>
-                                    </div>
-                                    <input aria-describedby="basic-addon2"
-                                           aria-label="Alerts on date start"
-                                           class="form-control"
-                                           id="updateCurrentAlerts" placeholder="Update..."
-                                           type="text">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-outline-secondary" type="button">update
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-auto col-md-6">
-                            <div class="pt-1">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <label class="input-group-text"
-                                               for="dueWithinCurrentWeekAmount">Due
-                                            Within this week:</label>
-                                    </div>
-                                    <input aria-describedby="basic-addon2"
-                                           aria-label="Alerts on dat start"
-                                           class="form-control"
-                                           id="dueWithinCurrentWeekAmount" placeholder="Update..."
-                                           type="text">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-outline-secondary" type="button">update
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-auto col-md-6">
-                            <div class="pt-1">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <label class="input-group-text"
-                                               for="dueWithinCurrentWeekEarliestDate">Earliest Due Date:
-                                        </label>
-                                    </div>
-                                    <input aria-describedby="basic-addon2"
-                                           aria-label="Alerts on dat start"
-                                           class="form-control"
-                                           id="dueWithinCurrentWeekEarliestDate" placeholder="Update..."
-                                           type="text">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-outline-secondary" type="button">update
-                                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- EO Agency info -->
+            <!-- Mapping ShortCuts -->
+            <div class="row pb-3">
+                <div class="col">
+                    <div class="pt-3">
+                        <button aria-controls="collapseMapping" aria-expanded="false"
+                                class="btn btn-success btn-lg btn-block"
+                                data-target="#collapseMapping"
+                                data-toggle="collapse" type="button">
+                            Mapping Short cuts (Click to expand):
+                        </button>
+                        <div class="collapse" id="collapseMapping">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="pt-3">
+                                                <button class="btn btn-primary text-center w-100"
+                                                        onclick='google.script.run.openOldEditor()'
+                                                        type="button">
+                                                    "Old" Editor
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-        </div>
-    </div>
-</div>
-<!-- EO Agency info -->
-<!-- Mapping ShortCuts -->
-<div class="row pb-3">
-    <div class="col">
-        <div class="pt-3">
-            <button aria-controls="collapseMapping" aria-expanded="false"
-                    class="btn btn-success btn-lg btn-block"
-                    data-target="#collapseMapping"
-                    data-toggle="collapse" type="button">
-                Mapping Short cuts (Click to expand):
-            </button>
-            <div class="collapse" id="collapseMapping">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col">
-                                <div class="pt-3">
-                                    <button class="btn btn-primary text-center w-100"
-                                            onclick='google.script.run.openOldEditor()'
-                                            type="button">
-                                        "Old" Editor
-                                    </button>
+            <!-- Mapping ShortCuts End -->
+            <!-- Fares ShortCuts -->
+            <div class="row pb-3">
+                <div class="col">
+                    <div class="pt-3">
+                        <button aria-controls="collapseFares" aria-expanded="false"
+                                class="btn btn-success btn-lg btn-block"
+                                data-target="#collapseFares"
+                                data-toggle="collapse" type="button">
+                            Fares Short cuts (Click to expand):
+                        </button>
+                        <div class="collapse" id="collapseFares">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row pt-3">
+                                        <div class="col">
+                                            <button class="btn btn-primary text-center w-100" id="fares"
+                                                    onclick='google.script.run.openFares()'
+                                                    type="button">Fares
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Fares ShortCuts End -->
+            <!-- Buttons End-->
         </div>
     </div>
 </div>
-<!-- Mapping ShortCuts End -->
-<!-- Fares ShortCuts -->
-<div class="row pb-3">
-    <div class="col">
-        <div class="pt-3">
-            <button aria-controls="collapseFares" aria-expanded="false"
-                    class="btn btn-success btn-lg btn-block"
-                    data-target="#collapseFares"
-                    data-toggle="collapse" type="button">
-                Fares Short cuts (Click to expand):
-            </button>
-            <div class="collapse" id="collapseFares">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row pt-3">
-                            <div class="col">
-                                <button class="btn btn-primary text-center w-100" id="fares"
-                                        onclick='google.script.run.openFares()'
-                                        type="button">Fares
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Fares ShortCuts End -->
-<!-- Buttons End-->
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script crossorigin="anonymous"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
