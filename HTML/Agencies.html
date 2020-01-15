@@ -22,45 +22,51 @@
     </div>
     <div class="row">
         <!-- iframe -->
-        <div class="col-9 h-100">
-            <div class="row">
-                <div class="col-12">
-                    <iframe height="100%"
-                            src="https://docs.google.com/spreadsheets/d/1lOTV5xxmj_QjYiK4X0dVti9VIxauktc4xNGZwc6U-qU/edit#gid=1524265305"
-                            style="border:none;" width="100%"></iframe>
+        <div class="col-9">
+            <!--
+            <div class="card bg-light mb-3">
+                <div class="card-header">
+                    <a aria-controls="collapseSheet" aria-expanded="false" class="btn-outline-none"
+                       data-toggle="collapse" href="#collapseSheet" role="button">
+                        <h5>NY-NJ Project</h5>
+                    </a>
                 </div>
-                <!--
-                <div class="card bg-light mb-3">
-                    <div class="card-header">
-                        <a aria-controls="collapseSheet" aria-expanded="false" class="btn-outline-none"
-                           data-toggle="collapse" href="#collapseSheet" role="button">
-                            <h5>NY-NJ Project</h5>
-                        </a>
-                    </div>
-                    <div class="collapse" id="collapseSheet">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <iframe src="https://docs.google.com/spreadsheets/d/1lOTV5xxmj_QjYiK4X0dVti9VIxauktc4xNGZwc6U-qU/edit#gid=1524265305"
-                                            style="border:none;" width="100%"></iframe>
-                                </div>
+                <div class="collapse" id="collapseSheet">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <iframe style="border:none;" width="100%"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            -->
+        </div>
+        </div>
+        -->
+            <div class="row mh-25">
+                <div class="col">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe
+                                class="embed-responsive-item"
+                                src="https://mooviters.moovit.com/editor/service-alerts?dataSourceId=2037&tab=sa"
+                                style="border:none;"></iframe>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-12 h-100">
-                    <iframe height="100%"
-                            src="https://mooviters.moovit.com/editor/service-alerts?dataSourceId=2037&tab=sa"
-                            style="border:none;" width="100%"></iframe>
+            <div class="row mh-25">
+                <div class="col">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe
+                                class="embed-responsive-item"
+                                src="https://mooviters.moovit.com/editor/service-alerts?dataSourceId=32&tab=sa"
+                                style="border:none;"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Butons -->
-        <div class="col-3 h-50">
+        <div class="col-3">
             <!-- SO STC ShortCuts End -->
             <div class="row">
                 <div class="col">
@@ -113,7 +119,8 @@
                                     <div class="col">
                                         <div class="pt-3">
                                             <button class="btn btn-primary text-center w-100"
-                                                    onclick='google.script.run.openMoovitAppArea()' type="button">Open
+                                                    onclick='google.script.run.openMoovitAppArea()' type="button">
+                                                Open
                                                 Moovitapp
                                                 area Page
                                             </button>
@@ -182,7 +189,8 @@
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <label class="input-group-text" data-toggle="tooltip"
-                                                           for="SearchAreaByID" title="Select from dropdown to change">
+                                                           for="SearchAreaByID"
+                                                           title="Select from dropdown to change">
                                                         Area ID:
                                                     </label>
                                                 </div>
@@ -285,7 +293,8 @@
                                                         Number of Alerts (BOD):
                                                     </label>
                                                 </div>
-                                                <input aria-describedby="basic-addon2" aria-label="BOD Alerts Number..."
+                                                <input aria-describedby="basic-addon2"
+                                                       aria-label="BOD Alerts Number..."
                                                        class="form-control"
                                                        placeholder="BOD Alerts Number..."
                                                        type="text">
@@ -386,7 +395,8 @@
                                                         Next Due date (future):
                                                     </label>
                                                 </div>
-                                                <input aria-describedby="basic-addon2" aria-label="Due date (Future)..."
+                                                <input aria-describedby="basic-addon2"
+                                                       aria-label="Due date (Future)..."
                                                        class="form-control"
                                                        placeholder="Due date (Future)..."
                                                        type="date">
@@ -474,6 +484,7 @@
         <!-- Buttons End-->
     </div>
 </div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
