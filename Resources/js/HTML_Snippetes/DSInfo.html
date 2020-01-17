@@ -1,29 +1,4 @@
-window.addEventListener("DOMContentLoaded", function () {
-
-    function returnHTMLSnippet(htmlSnippet) {
-        var httpRequest;
-        httpRequest = new XMLHttpRequest();
-
-        if (!httpRequest) {
-            alert('Giving up :( Cannot create an XMLHTTP instance');
-            return false;
-        }
-        httpRequest.onreadystatechange = function(){
-            if (httpRequest.readyState === XMLHttpRequest.DONE) {
-                if (httpRequest.status === 200) {
-                    alert(httpRequest.responseText);
-                } else {
-                    alert('There was a problem with the request.');
-                }
-            }
-        };
-
-        httpRequest.open('GET', '../Resources/js/HTML_Snippetes/' + htmlSnippet + '.html',false);
-        httpRequest.send();        
-    }
-    returnHTMLSnippet("DSInfo");
-    var dsInfo = `
-    <div class="row">
+<div class="row">
     <div class="col">
         <div class="input-group">
             <div class="input-group-prepend">
@@ -86,10 +61,3 @@ window.addEventListener("DOMContentLoaded", function () {
         </div>
     </div>
 </div>
-    `
-    alert("Ready for more coding!");
-    var newEditor = [];
-    newEditor.push(document.getElementById("collapseNewEditorCardHeader"));
-    newEditor[0].innerHTML = dsInfo;
-    console.log(newEditor[0].nodeType);
-});
