@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d31767e2-cb01-4c41-9751-234d8d516eda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Agencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Agencies.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +18,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/Agencies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+            <state relative-caret-position="536">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -58,6 +56,19 @@
       <GitPushTagMode />
     </option>
     <option name="SIGN_OFF_COMMIT" value="true" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="APP_Version" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,11 +111,6 @@
             <path>
               <item name="STCUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="STCUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="STCUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="STCUI" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,7 +192,8 @@
       <workItem from="1579005185393" duration="5924000" />
       <workItem from="1579011963454" duration="2282000" />
       <workItem from="1579020342910" duration="2200000" />
-      <workItem from="1579110625957" duration="2343000" />
+      <workItem from="1579110625957" duration="2521000" />
+      <workItem from="1579630584307" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <created>1578312414584</created>
@@ -258,18 +265,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579102544224</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Layout updated with correct card settings">
+      <created>1579113093454</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579113093454</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44067000" />
+    <option name="totallyTimeSpent" value="44482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981774" visible="true" weight="0.17913593" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5018226" side_tool="true" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.17913593" />
+      <window_info id="Structure" order="1" sideWeight="0.50323623" side_tool="true" visible="true" weight="0.17913593" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -279,9 +292,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49578503" visible="true" weight="0.108342364" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4947313" visible="true" weight="0.33044422" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50421494" side_tool="true" visible="true" weight="0.108342364" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5052687" side_tool="true" visible="true" weight="0.33044422" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -319,7 +332,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="UI-With-Options" />
+                        <option value="origin/APP_Version" />
                       </list>
                     </value>
                   </entry>
@@ -343,6 +356,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/APP_Version" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="UI-With-Options" />
@@ -405,11 +423,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Agencies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        <state relative-caret-position="536">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
