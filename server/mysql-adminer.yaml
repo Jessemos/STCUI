@@ -5,6 +5,7 @@ services:
 services:
   db:
     image: mysql
+    container_name: stcui-db
     restart: always
     environment:
       MYSQL_DATABASE: 'STCUI'
@@ -24,6 +25,7 @@ services:
 
   adminer:
     image: adminer
+    container_name: adminer
     restart: always
     ports:
       - 8080:8080
