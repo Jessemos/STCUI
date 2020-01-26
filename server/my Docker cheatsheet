@@ -1,0 +1,15 @@
+Important docker shortcuts
+
+List of all cntainer:
+docker container ls -a
+
+Stop all containers
+docker stop $(docker ps -a -q) 
+
+
+Remove all stopped containers:
+docker rm $(docker ps -a -q)
+
+Removing All Unused Objects:
+docker system prune
+
