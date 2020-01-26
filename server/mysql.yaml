@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+
+services:
+  db:
+    image: mysql
+    container_name: stcui-db
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'STCUI'
+      # So you don't have to use root, but you can if you like
+      MYSQL_USER: 'ymroot'
+      # You can use whatever password you like
+      MYSQL_PASSWORD: 'Ymmoovit1'
+      # Password for root access
+      MYSQL_ROOT_PASSWORD: 'Ymmoovit1'
+    ports:
+      # <Port exposed> : < MySQL Port running inside container>
+      - '3306:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+ 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+     - PMA_ARBITRARY=1
+    restart: always
+    ports:
+     - 8080:80
