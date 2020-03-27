@@ -1,0 +1,23 @@
+{
+  "name": "STCUI",
+  "version": "0.1",
+  "description": "Moovit STC Team UI",
+  "manifest_version": 2,
+  "minimum_chrome_version": "35",
+  "permissions": [
+    "fullscreen",
+    "alwaysOnTopWindows",
+    "storage"
+  ],
+  "app": {
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  },
+  "icons": {
+    "16": "assets/images/calculator-16.png",
+    "128": "assets/images/calculator-128.png"
+  }
+}

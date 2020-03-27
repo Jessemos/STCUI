@@ -120,7 +120,7 @@ window.addEventListener("DOMContentLoaded", function () {
         document.body.appendChild(mo);
     
     }
-
+    chrome.app.window.current().maximize();
     doFirst();
     getData();
 });
