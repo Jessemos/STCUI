@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- This CSS package applies Google styling; it should always be included. -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <base target="_top">
+
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="../CSS/bootstrap.css">
+
+<body>
+  <!-- Butons -->
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="alert alert-primary text-center" id="sheetNameDiv">
+                STC Allerts Follow Up
+            </div>
+        </div>
+    </div>
+    <!-- SO STC ShortCuts End -->
+    <div class="row">
+        <div class="col">
+            <!-- SO Shortcut: Editor Alerts Tab-->
+            <div class="card bg-light mb-3">
+                <div class="card-header d-flex justify-content-center">
+                    <a aria-controls="collapseSTCShorcuts" aria-expanded="false" class="btn-outline-none"
+                        data-toggle="collapse" href="#collapseSTCShorcuts" role="button">
+                        <h6>Allerts Management</h6>
+                    </a>
+                </div>
+                <div class="collapse" id="collapseSTCShorcuts">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="pt-3">
+                                    <button class="btn btn-primary text-center w-100"
+                                        onclick='google.script.run.addNewAlert()' type="button">Add A new Alert
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="pt-3">
+                                    <button class="btn btn-primary text-center w-100"
+                                        onclick='google.script.run.viewExistingsAlerts()' type="button">View / edit existing alert
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Buttons End-->
+ 
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    console.log("ready!");
+    $('#collapseSTCShorcuts').collapse('show');
+  });
+</script>
+</html>

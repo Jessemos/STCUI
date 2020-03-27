@@ -1,0 +1,171 @@
+<div class="row">
+    <div class="col">
+        <div class="card bg-light mb-3">
+            <div class="card-header">
+                <a aria-controls="collapseAgencyInfo" aria-expanded="false" class="btn-outline-none"
+                    data-toggle="collapse" href="#collapseAgencyInfo" role="button">
+                    <h5> Current Agency & Alerts Info</h5>
+                </a>
+            </div>
+            <div class="collapse" id="collapseAgencyInfo">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="pt-1">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" data-toggle="tooltip"
+                                            for="SearchAgencyByName"
+                                            title="Select from dropdown to change">
+                                            Agency Name:
+                                        </label>
+                                    </div>
+                                    <select class="custom-select" id="SearchAgencyByName">
+                                        <option selected>Search by Agency Name...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="pt-1">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" data-toggle="tooltip"
+                                            for="inputGroupSelectOwner"
+                                            title="Select from dropdown to change">Owner:</label>
+                                    </div>
+                                    <select class="custom-select" id="inputGroupSelectOwner">
+                                        <option selected>Choose...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">Update
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="pt-1">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" data-toggle="tooltip"
+                                            for="numberOfAlertsBOD"
+                                            title="Please update current Alerts amount">
+                                            Number of Alerts (BOD):
+                                        </label>
+                                    </div>
+                                    <input aria-describedby="basic-addon2"
+                                        aria-label="BOD Alerts Number..." class="form-control"
+                                        placeholder="BOD Alerts Number..." type="text">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">Update
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="pt-1">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" data-toggle="tooltip"
+                                            for="numberOfAlertsCurrent"
+                                            title="Please update current Alerts amount">
+                                            Number of Alerts (Currrent):
+                                        </label>
+                                    </div>
+                                    <input aria-describedby="basic-addon2"
+                                        aria-label="Current Alerts Number..." class="form-control"
+                                        placeholder="Current Alerts Number..." type="text">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">Update
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="pt-1">
+                                <table class="table table-sm table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2"> Last Updated:</td>
+                                            <td class="d-flex justify-content-center">
+                                                <em>Never</em>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="pt-1">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" data-toggle="tooltip"
+                                            for="weekNextDueDate" title="This week next due date">
+                                            Next Due date (week):
+                                        </label>
+                                    </div>
+                                    <input aria-describedby="basic-addon2" aria-label="Next Due Date..."
+                                        class="form-control" placeholder="Next Due Date..." type="date">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">Update
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="pt-1">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" data-toggle="tooltip"
+                                            for="numberOfAlertsFuture"
+                                            title="Please update current Alerts amount">
+                                            Number of Alerts (Future):
+                                        </label>
+                                    </div>
+                                    <input aria-describedby="basic-addon2"
+                                        aria-label="Future Alerts Number..." class="form-control"
+                                        placeholder="Future Alerts Number..." type="text">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">Update
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="pt-1">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" data-toggle="tooltip"
+                                            for="nextDueDateFuture"
+                                            title="Please update earliest future alerts due date">
+                                            Next Due date (future):
+                                        </label>
+                                    </div>
+                                    <input aria-describedby="basic-addon2"
+                                        aria-label="Due date (Future)..." class="form-control"
+                                        placeholder="Due date (Future)..." type="date">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">Update
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

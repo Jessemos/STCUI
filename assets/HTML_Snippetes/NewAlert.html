@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This CSS package applies Google styling; it should always be included. -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <base target="_top">
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+
+<body>
+    <container>
+        <form>
+            <div class="row pb-1">
+                <div class="col-6">
+                    <div class="row pb-1">
+                        <div class="col">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Feed-Link">Feed Link</span>
+                                </div>
+                                <input type="text" class="form-control" aria-label="Small"
+                                    aria-describedby="Feed-Link">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Alert-Title">Alert Title</span>
+                                </div>
+                                <input type="text-area" class="form-control" aria-label="Small"
+                                    aria-describedby="Alert-Title">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Alert-Text">Alert Text</span>
+                                </div>
+                                <textarea class="form-control" aria-label="Small"
+                                    aria-describedby="Alert-Text"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row pb-1">
+                        <div class="col">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Alerts-Publish-Date">Alerts Publish Date</span>
+                                </div>
+                                <input type="text" class="form-control" aria-label="Small"
+                                    aria-describedby="Alerts-Publish-Date">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input-group input-group-sm">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" data-toggle="tooltip" for="UpdatedBy"
+                                        title="Select from dropdown to change">
+                                        Updated by
+                                    </label>
+                                </div>
+                                <select class="custom-select" id="Updated-By">
+                                    <option selected>Select...</option>
+                                    <option value="1">Amitzur N.</option>
+                                    <option value="2">Anton S.</option>
+                                    <option value="3">Yeashai M.</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col-6">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" data-toggle="tooltip" for="Resolution"
+                                        title="Select from dropdown to change">
+                                        Resolution
+                                    </label>
+                                </div>
+                                <select class="custom-select" id="Resolution">
+                                    <option selected>Select...</option>
+                                    <option value="1">STC - Created</option>
+                                    <option value="2">STC - Active</option>
+                                    <option value="3">Not Relevant to STC</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" data-toggle="tooltip" for="NotRelevantDue"
+                                        title="Select from dropdown to change">
+                                        Not Relevant Due to
+                                    </label>
+                                </div>
+                                <select class="custom-select" id="NotRelevantDue">
+                                    <option selected>Select...</option>
+                                    <option value="1">Conten is not relevant.</option>
+                                    <option value="2">Not enough time to implement</option>
+                                    <option value="3">Detour - add stops</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="STC-Description">Stc Description</span>
+                                </div>
+                                <input type="text" class="form-control" aria-label="Small"
+                                    aria-describedby="STC-Description">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="STC-Created-On">STC Created On</span>
+                                </div>
+                                <input type="text" class="form-control" aria-label="Small"
+                                    aria-describedby="STC-Created-On">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Follow-Up">Follow up on</span>
+                                </div>
+                                <input type="text" class="form-control" aria-label="Small"
+                                    aria-describedby="Follow-Up">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col mb-3">
+                            <button type="submit" class="btn btn-primary" id="Add-New-Alert">Save Alert to report</button>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </container>
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/app.js"></script>
+
+</html>
