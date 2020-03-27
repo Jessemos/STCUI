@@ -111,7 +111,6 @@ window.addEventListener("DOMContentLoaded", function () {
                 </div>
             </div>
         `
-        alert("Ready for more coding!");
         var AgencyInfo = [];
         AgencyInfo.push(document.getElementById("NewAgencyInfoHeader"));
         AgencyInfo[0].innerHTML = dsHtml;
