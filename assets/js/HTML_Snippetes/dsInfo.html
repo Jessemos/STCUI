@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This CSS package applies Google styling; it should always be included. -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <base target="_top">
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="../../CSS/bootstrap.css">
+
+<body>
+    <div class="container-fluid">
+        <div class="row pb-1">
+            <div class="col-2">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="SearchAreaByID">Area ID</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Start Typing..." aria-label="Small" aria-describedby="SearchAreaByID" list="AreaIdSuggestions">
+                    <datalist id="AreaIdSuggestions">
+                    </datalist>
+                </div>
+            </div>
+            <div class="col">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" data-toggle="tooltip" for="SearchAreaByName"
+                            title="Select from dropdown to change">
+                            Area Name:
+                        </label>
+                    </div>
+                    <select class="custom-select" id="AreaNameOptions">
+                        <option selected>Select...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" data-toggle="tooltip" for="AreaDefaultDS"
+                            title="Select from dropdown to change">Default Data
+                            Source #:</label>
+                    </div>
+                    <select class="custom-select" id="AreaDefaultDS">
+                        <option selected>Select...</option>
+                        <option value="1">7</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!-- Agency -->
+        <div class="row pb-1">
+            <div class="col-3">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" data-toggle="tooltip" for="SearchAgencyByID"
+                            title="Select from dropdown to change">
+                            Agency ID:
+                        </label>
+                    </div>
+                    <select class="custom-select" id="SearchAgencyByID">
+                        <option selected>Search by Agency ID...</option>
+                        <option value="1">12345</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" data-toggle="tooltip" for="SearchAgencyByName"
+                            title="Select from dropdown to change">
+                            Agency Name:
+                        </label>
+                    </div>
+                    <select class="custom-select" id="SearchAgencyByName">
+                        <option selected>Search by Agency Name...</option>
+                        <option value="1">SFMTA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" data-toggle="tooltip" for="AgencyUniqueDS"
+                            title="Select from dropdown to change">
+                            Agency Unique DS:
+                        </label>
+                    </div>
+                    <select class="custom-select" id="AgencyUniqueDS">
+                        <option selected>Search by Agency DS...</option>
+                        <option value="1">7</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../js/jquery-3.4.1.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+</html>
