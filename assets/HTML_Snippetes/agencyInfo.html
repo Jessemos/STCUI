@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This CSS package applies Google styling; it should always be included. -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <base target="_top">
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+
+<body>
+    <form>
+        <div class="form-row">
+            <div class="col-2 mb-1">
+                <label for="SearchAreaByName">Agency DS</label>
+                <input type="text" class="form-control form-control-sm" name="searchByagencyUniqueDS"
+                    id="searchByAgencyUniqueDS" placeholder="Start Typing..." list="agencyUniqueDSSuggestions">
+                </input>
+                <datalist id="agencyUniqueDSSuggestions">
+                </datalist>
+            </div>
+            <div class="col mb-1">
+                <label for="editorDSPage">Agency Name</label>
+                <input type="text" class="form-control form-control-sm" name="agencyName" id="searchByAgencyName"
+                    placeholder="Start typing" list="agencyNameSuggestions"></input>
+                <datalist id="agencyNameSuggestions">
+                </datalist>
+            </div>
+            <div class="col-2 mb-1">
+                <label for="editorDSPage">Agency ID</label>
+                <input type="text" class="form-control form-control-sm" name="agencyID" id="searchByAgencyID"
+                    placeholder="Start typing" list="agencyIDSuggestions"></input>
+                <datalist id="agencyIDSuggestions">
+                </datalist>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-2 mb-1">
+                <label for="editorDSPage">Metro Code</label>
+                <input type="text" class="form-control form-control-sm" name="areaId" id="searchByAreaId"
+                    placeholder="Start typing" list="areaIdSuggestions"></input>
+                <datalist id="areaIdSuggestions">
+                </datalist>
+            </div>
+            <div class="col mb-1">
+                <label for="SearchAreaByName">Metro Name</label>
+                <input type="text" class="form-control form-control-sm" name="areaName" id="searchByAreaName"
+                    placeholder="Start Typing..." list="areaNameSuggestions">
+                </input>
+                <datalist id="areaNameSuggestions">
+                </datalist>
+            </div>
+            <div class="col-2 mb-1">
+                <label for="editorDSPage">Metro default DS</label>
+                <input type="text" class="form-control form-control-sm" name="editorDSID" id="searchByEditorDSID"
+                    placeholder="Start typing" list="DSSuggestions"></input>
+                <datalist id="DSSuggestions">
+                </datalist>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col mb-1">
+                <button class="btn btn-primary" id="goSA">Alerts</button>
+            </div>
+            <div class="col mb-1">
+                <button class="btn btn-primary" id="goSTC">STC</button>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/app.js"></script>
+
+</html>
