@@ -11,8 +11,15 @@
     <link rel="stylesheet" href="../CSS/bootstrap.css">
 
 <body>
-    <form>
+    <form id="agencyInfoForm">
         <div class="form-row">
+            <div class="col-2 mb-1">
+                <label for="editorDSPage">Agency ID</label>
+                <input type="text" class="form-control form-control-sm" name="agencyID" id="searchByAgencyID"
+                    placeholder="Start typing" list="agencyIDSuggestions"></input>
+                <datalist id="agencyIDSuggestions">
+                </datalist>
+            </div>
             <div class="col-2 mb-1">
                 <label for="SearchAreaByName">Agency DS</label>
                 <input type="text" class="form-control form-control-sm" name="searchByagencyUniqueDS"
@@ -28,13 +35,7 @@
                 <datalist id="agencyNameSuggestions">
                 </datalist>
             </div>
-            <div class="col-2 mb-1">
-                <label for="editorDSPage">Agency ID</label>
-                <input type="text" class="form-control form-control-sm" name="agencyID" id="searchByAgencyID"
-                    placeholder="Start typing" list="agencyIDSuggestions"></input>
-                <datalist id="agencyIDSuggestions">
-                </datalist>
-            </div>
+
         </div>
         <div class="form-row">
             <div class="col-2 mb-1">
@@ -42,6 +43,13 @@
                 <input type="text" class="form-control form-control-sm" name="areaId" id="searchByAreaId"
                     placeholder="Start typing" list="areaIdSuggestions"></input>
                 <datalist id="areaIdSuggestions">
+                </datalist>
+            </div>
+            <div class="col-2 mb-1">
+                <label for="editorDSPage">Metro default DS</label>
+                <input type="text" class="form-control form-control-sm" name="editorDSID" id="searchByEditorDSID"
+                    placeholder="Start typing" list="DSSuggestions"></input>
+                <datalist id="DSSuggestions">
                 </datalist>
             </div>
             <div class="col mb-1">
@@ -52,13 +60,7 @@
                 <datalist id="areaNameSuggestions">
                 </datalist>
             </div>
-            <div class="col-2 mb-1">
-                <label for="editorDSPage">Metro default DS</label>
-                <input type="text" class="form-control form-control-sm" name="editorDSID" id="searchByEditorDSID"
-                    placeholder="Start typing" list="DSSuggestions"></input>
-                <datalist id="DSSuggestions">
-                </datalist>
-            </div>
+
         </div>
         <div class="form-row">
             <div class="col mb-1">
